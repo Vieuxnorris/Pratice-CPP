@@ -2,6 +2,6 @@
 
 int main()
 {
-	Pointers();
+	C_style_Structures();
 	return 0;
 }

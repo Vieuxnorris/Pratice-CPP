@@ -30,6 +30,15 @@
     <ClCompile Include="Pointers.cpp">
       <Filter>Fichiers sources\Cpp_Prime</Filter>
     </ClCompile>
+    <ClCompile Include="Arrays.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="c_style Structures.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">
