@@ -51,6 +51,12 @@
     <ClCompile Include="Namespaces.cpp">
       <Filter>Fichiers sources\Cpp_Prime</Filter>
     </ClCompile>
+    <ClCompile Include="Traditional C_Style Casting.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_Casting.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">

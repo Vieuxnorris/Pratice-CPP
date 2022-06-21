@@ -15,3 +15,4 @@ void Constants_and_Typedef(void);
 void Local_and_Global_Scopes(void);
 void Namespace(void);
 void Traditional_c_style_casting(void);
+void Static_Casting(void);

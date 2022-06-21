@@ -2,6 +2,6 @@
 
 int main()
 {
-	Namespace();
+	Static_Casting();
 	return 0;
 }
