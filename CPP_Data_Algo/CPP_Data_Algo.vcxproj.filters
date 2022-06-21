@@ -39,6 +39,18 @@
     <ClCompile Include="c_style Structures.cpp">
       <Filter>Fichiers sources\Cpp_Prime</Filter>
     </ClCompile>
+    <ClCompile Include="References.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants and Typedef.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="Local and Global Scopes.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="Namespaces.cpp">
+      <Filter>Fichiers sources\Cpp_Prime</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">

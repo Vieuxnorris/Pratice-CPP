@@ -2,6 +2,6 @@
 
 int main()
 {
-	C_style_Structures();
+	Namespace();
 	return 0;
 }
