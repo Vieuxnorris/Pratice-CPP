@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
+#include <math.h>
 
 // Basique Base Cpp Prime
 
@@ -23,6 +24,10 @@ void Static_Casting(void);
 void Implicit_Casting(void);
 
 // Basique Controle Flow Cpp Prime
+
+void if_Statement(void);
+void while_and_do_while_loops(void);
+void For_loop(void);
 
 // Basique Functions Cpp Prime
 

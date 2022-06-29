@@ -2,6 +2,6 @@
 
 int main()
 {
-	Static_Casting();
+	For_loop();
 	return 0;
 }

@@ -143,7 +143,10 @@
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="Constants and Typedef.cpp" />
     <ClCompile Include="c_style Structures.cpp" />
+    <ClCompile Include="For loop.cpp" />
     <ClCompile Include="Fundamental types.cpp" />
+    <ClCompile Include="If Statement.cpp" />
+    <ClCompile Include="Implicit_Casting.cpp" />
     <ClCompile Include="Local and Global Scopes.cpp" />
     <ClCompile Include="Namespaces.cpp" />
     <ClCompile Include="Pointers.cpp" />
@@ -152,6 +155,7 @@
     <ClCompile Include="Static_Casting.cpp" />
     <ClCompile Include="Strings.cpp" />
     <ClCompile Include="Traditional C_Style Casting.cpp" />
+    <ClCompile Include="while and do-While loops.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h" />
