@@ -30,6 +30,8 @@ void while_and_do_while_loops(void);
 void For_loop(void);
 
 // Basique Functions Cpp Prime
+void Function(void);
+void Overloading_and_inlining(void);
 
 // Basique Classes Cpp Prime
 

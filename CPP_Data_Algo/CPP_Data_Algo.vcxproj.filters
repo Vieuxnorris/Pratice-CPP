@@ -13,100 +13,109 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Fichiers sources\Cpp_Prime">
-      <UniqueIdentifier>{71985533-10b1-4878-a39f-7ce85259002d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\POO">
-      <UniqueIdentifier>{0e7cfa4a-bbe9-498a-a27d-014b45ed5497}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\Arrays, Linked Lists, and Recursion">
       <UniqueIdentifier>{f7590ea9-6d0f-490c-96b5-816da0577991}</UniqueIdentifier>
     </Filter>
     <Filter Include="Fichiers sources\Analysis tools">
       <UniqueIdentifier>{5b64ce85-69ae-4f26-8bfa-c9dbeb98753c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Stacks, Queues, and Deques">
-      <UniqueIdentifier>{49e5a933-5e60-4a25-a22f-597b9f3c7e40}</UniqueIdentifier>
+    <Filter Include="Fichiers sources\Cpp_algo">
+      <UniqueIdentifier>{71985533-10b1-4878-a39f-7ce85259002d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\List and Iterator ADTs">
-      <UniqueIdentifier>{3dabe704-c370-42b4-bb12-ac5c6dda40e7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Trees">
-      <UniqueIdentifier>{0dbad542-d3da-43ed-aada-ce3b40b5b779}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Heaps and Priority Queues">
-      <UniqueIdentifier>{f4338054-99b2-456d-9f76-53d643e9a848}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Hash Tables, Maps, and Skip Lists">
-      <UniqueIdentifier>{eb30c119-f9b8-4243-9dcc-74b9350fd3bf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Search Trees">
-      <UniqueIdentifier>{9b7ec4ff-a702-44c7-b216-6ed77b086be6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Sorting, Sets, and Selection">
-      <UniqueIdentifier>{7807cd48-442f-4268-b93e-ba672157c57f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Strings and Dynamic Programming">
-      <UniqueIdentifier>{ede56ff3-d3d1-43ed-bea1-38f4c52c6da6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Graph Algorithms">
+    <Filter Include="Fichiers sources\Cpp_algo\Graph Algorithms">
       <UniqueIdentifier>{07b98e79-ea12-4991-8d31-6bec4c64c2a2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Memory Management and B-Trees">
+    <Filter Include="Fichiers sources\Cpp_algo\Hash Tables, Maps, and Skip Lists">
+      <UniqueIdentifier>{eb30c119-f9b8-4243-9dcc-74b9350fd3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Heaps and Priority Queues">
+      <UniqueIdentifier>{f4338054-99b2-456d-9f76-53d643e9a848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\List and Iterator ADTs">
+      <UniqueIdentifier>{3dabe704-c370-42b4-bb12-ac5c6dda40e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Memory Management and B-Trees">
       <UniqueIdentifier>{acf94117-418a-4e77-ae44-53f4371b6dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\POO">
+      <UniqueIdentifier>{0e7cfa4a-bbe9-498a-a27d-014b45ed5497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Search Trees">
+      <UniqueIdentifier>{9b7ec4ff-a702-44c7-b216-6ed77b086be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Trees">
+      <UniqueIdentifier>{0dbad542-d3da-43ed-aada-ce3b40b5b779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Sorting, Sets, and Selection">
+      <UniqueIdentifier>{7807cd48-442f-4268-b93e-ba672157c57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Stacks, Queues, and Deques">
+      <UniqueIdentifier>{49e5a933-5e60-4a25-a22f-597b9f3c7e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Strings and Dynamic Programming">
+      <UniqueIdentifier>{ede56ff3-d3d1-43ed-bea1-38f4c52c6da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Basics">
+      <UniqueIdentifier>{5f41220d-3707-471e-9b02-7e50adf47785}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A Simple Cpp Program.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Fundamental types.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointers.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
     </ClCompile>
     <ClCompile Include="Arrays.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Strings.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
     </ClCompile>
     <ClCompile Include="c_style Structures.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="References.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
     </ClCompile>
     <ClCompile Include="Constants and Typedef.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Local and Global Scopes.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Namespaces.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Traditional C_Style Casting.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Static_Casting.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="Implicit_Casting.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="If Statement.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
-    </ClCompile>
-    <ClCompile Include="while and do-While loops.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
     </ClCompile>
     <ClCompile Include="For loop.cpp">
-      <Filter>Fichiers sources\Cpp_Prime</Filter>
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Fundamental types.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="If Statement.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Implicit_Casting.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Local and Global Scopes.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Namespaces.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="References.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_Casting.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Traditional C_Style Casting.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="while and do-While loops.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Fichiers sources\Cpp_algo</Filter>
+    </ClCompile>
+    <ClCompile Include="OverloadingAndInlining.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

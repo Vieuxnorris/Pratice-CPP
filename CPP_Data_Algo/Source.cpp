@@ -2,6 +2,6 @@
 
 int main()
 {
-	For_loop();
+	Overloading_and_inlining();
 	return 0;
 }

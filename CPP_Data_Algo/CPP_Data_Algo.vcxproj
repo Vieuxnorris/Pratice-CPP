@@ -144,11 +144,13 @@
     <ClCompile Include="Constants and Typedef.cpp" />
     <ClCompile Include="c_style Structures.cpp" />
     <ClCompile Include="For loop.cpp" />
+    <ClCompile Include="Function.cpp" />
     <ClCompile Include="Fundamental types.cpp" />
     <ClCompile Include="If Statement.cpp" />
     <ClCompile Include="Implicit_Casting.cpp" />
     <ClCompile Include="Local and Global Scopes.cpp" />
     <ClCompile Include="Namespaces.cpp" />
+    <ClCompile Include="OverloadingAndInlining.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="References.cpp" />
     <ClCompile Include="Source.cpp" />
