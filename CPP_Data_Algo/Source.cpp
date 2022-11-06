@@ -2,6 +2,6 @@
 
 int main()
 {
-	Overloading_and_inlining();
+	Classes();
 	return 0;
 }

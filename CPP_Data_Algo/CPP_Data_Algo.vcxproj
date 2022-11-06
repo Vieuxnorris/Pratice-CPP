@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="A Simple Cpp Program.cpp" />
     <ClCompile Include="Arrays.cpp" />
+    <ClCompile Include="Classes.cpp" />
     <ClCompile Include="Constants and Typedef.cpp" />
     <ClCompile Include="c_style Structures.cpp" />
     <ClCompile Include="For loop.cpp" />

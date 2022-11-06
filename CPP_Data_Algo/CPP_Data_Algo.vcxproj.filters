@@ -117,6 +117,9 @@
     <ClCompile Include="OverloadingAndInlining.cpp">
       <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
     </ClCompile>
+    <ClCompile Include="Classes.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">

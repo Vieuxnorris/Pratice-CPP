@@ -34,6 +34,7 @@ void Function(void);
 void Overloading_and_inlining(void);
 
 // Basique Classes Cpp Prime
+void Classes(void);
 
 // Basique C++ Program and File Organization
 
