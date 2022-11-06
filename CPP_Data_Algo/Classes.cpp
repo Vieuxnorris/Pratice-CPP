@@ -23,6 +23,7 @@ public:
 	Vect(int n = 10);							// constructor, given size
 	Vect(const Vect& a);
 	~Vect();								// destructor
+	Vect& operator=(const Vect& a);
 	// ... other public members omitted
 private:
 	double coord[3];						// storage for coordinates
@@ -68,7 +69,8 @@ private:
 
 std::ostream& operator<<(std::ostream& out, const SomeClass& x)
 {
-	std::cout << x.secret;
+	out << x.secret;
+	return out;
 }
 
 // Vect Methodes
@@ -87,6 +89,11 @@ Vect::Vect(const Vect& a)				// copy constructor from a
 		data[i] = a.data[i];
 }
 
+Vect::~Vect()					// destructor
+{
+	delete[] data;				// free the allocated array
+}
+
 Vect& Vect::operator=(const Vect& a)		// assignement operator from a
 {
 	if (this != &a)							// avoid self-assignement
@@ -98,11 +105,6 @@ Vect& Vect::operator=(const Vect& a)		// assignement operator from a
 			data[i] = a.data[i];
 	}
 	return *this;
-}
-
-Vect::~Vect()					// destructor
-{
-	delete[] data;				// free the allocated array
 }
 
 Vect Matrix::multiply(const Vect& v)				// multiply by vector v
@@ -171,6 +173,7 @@ void Passenger::makeFrequentFlyer(const std::string& newFreqFlyerNo)
 
 void Classes(void)
 {
+
 	Counter ctr;									// an instance of Counter
 	std::cout << ctr.getCount() << std::endl;		// prints the initial value (0)
 	ctr.increaseBy(3);								// increase by 3

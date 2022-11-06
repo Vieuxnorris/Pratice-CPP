@@ -58,6 +58,9 @@
     <Filter Include="Fichiers sources\Cpp_algo\Basics">
       <UniqueIdentifier>{5f41220d-3707-471e-9b02-7e50adf47785}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Basics\CreditCard">
+      <UniqueIdentifier>{91eaeb82-c7da-42a0-9149-a19d0a6349b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A Simple Cpp Program.cpp">
@@ -120,9 +123,21 @@
     <ClCompile Include="Classes.cpp">
       <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
     </ClCompile>
+    <ClCompile Include="STL.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditCard.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics\CreditCard</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCard.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Basics\CreditCard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditCard.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

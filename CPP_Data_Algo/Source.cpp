@@ -1,7 +1,8 @@
+//#include "Cpp_Prime.h"
 #include "Cpp_Prime.h"
 
 int main()
 {
-	Classes();
+	TestCard();
 	return 0;
 }

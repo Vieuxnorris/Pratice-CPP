@@ -37,6 +37,7 @@ void Overloading_and_inlining(void);
 void Classes(void);
 
 // Basique C++ Program and File Organization
+void TestCard();
 
 // Basique Writing a C++ Program Cpp Prime
 
