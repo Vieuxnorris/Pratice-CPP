@@ -1,10 +1,12 @@
 #include "Object-Oriented_Design.h"
 
+// class
+
 class Progression {										// a generic progression
 public:
 
-	Progression(long f = 0) : first(f), cur(f) {};		// constructor
-	virtual ~Progression() {};							// destructor
+	Progression(long f = 0) : first(f), cur(f) {}		// constructor
+	virtual ~Progression() {}							// destructor
 	void printProgression(int n);						// print the first n values
 
 protected:
@@ -45,6 +47,8 @@ protected:
 	long prev;											// previous value
 };
 
+// methodes Progression
+
 void Progression::printProgression(int n)				// print n values
 {
 	std::cout << firstValue();							// print the first
@@ -64,6 +68,8 @@ long Progression::nextValue()							// advance
 	return ++cur;
 }
 
+// methodes ArithProgression
+
 ArithProgression::ArithProgression(long i) : Progression(), inc(i) {};		// constructor
 
 long ArithProgression::nextValue()											// advance by adding
@@ -72,6 +78,8 @@ long ArithProgression::nextValue()											// advance by adding
 	return cur;
 }
 
+// methodes GeomProgression
+
 GeomProgression::GeomProgression(long b) : Progression(1), base(b) {};		// constructor
 
 long GeomProgression::nextValue()											// advance by multiplying
@@ -79,6 +87,8 @@ long GeomProgression::nextValue()											// advance by multiplying
 	cur *= base;
 	return cur;
 }
+
+// methodes FibonacciProgression
 
 FibonacciProgression::FibonacciProgression(long f, long s) : Progression(f), second(s), prev(second - first) {};
 
@@ -96,6 +106,8 @@ long FibonacciProgression::nextValue()
 	cur += temp;
 	return cur;
 }
+
+
 
 // Test program for the progression classes
 int ExampleOfInheritance()

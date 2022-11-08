@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Fichiers sources\Arrays, Linked Lists, and Recursion">
-      <UniqueIdentifier>{f7590ea9-6d0f-490c-96b5-816da0577991}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Analysis tools">
-      <UniqueIdentifier>{5b64ce85-69ae-4f26-8bfa-c9dbeb98753c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\Cpp_algo">
       <UniqueIdentifier>{71985533-10b1-4878-a39f-7ce85259002d}</UniqueIdentifier>
     </Filter>
@@ -60,6 +54,12 @@
     </Filter>
     <Filter Include="Fichiers sources\Cpp_algo\Basics\CreditCard">
       <UniqueIdentifier>{91eaeb82-c7da-42a0-9149-a19d0a6349b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Arrays, Linked Lists, and Recursion">
+      <UniqueIdentifier>{f7590ea9-6d0f-490c-96b5-816da0577991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\Analysis tools">
+      <UniqueIdentifier>{5b64ce85-69ae-4f26-8bfa-c9dbeb98753c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +136,15 @@
       <Filter>Fichiers sources\Cpp_algo\POO</Filter>
     </ClCompile>
     <ClCompile Include="Examples_of_inheritance.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractBaseClass.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionTemplates.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionObject.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO</Filter>
     </ClCompile>
   </ItemGroup>

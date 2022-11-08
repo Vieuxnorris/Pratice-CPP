@@ -140,14 +140,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A Simple Cpp Program.cpp" />
+    <ClCompile Include="AbstractBaseClass.cpp" />
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="Classes.cpp" />
     <ClCompile Include="Constants and Typedef.cpp" />
     <ClCompile Include="CreditCard.cpp" />
     <ClCompile Include="c_style Structures.cpp" />
     <ClCompile Include="Examples_of_inheritance.cpp" />
+    <ClCompile Include="ExceptionObject.cpp" />
     <ClCompile Include="For loop.cpp" />
     <ClCompile Include="Function.cpp" />
+    <ClCompile Include="FunctionTemplates.cpp" />
     <ClCompile Include="Fundamental types.cpp" />
     <ClCompile Include="If Statement.cpp" />
     <ClCompile Include="Implicit_Casting.cpp" />

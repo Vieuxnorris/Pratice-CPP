@@ -4,6 +4,6 @@
 
 int main()
 {
-	InheranceAndPolymorphism();
+	ExceptionObject();
 	return 0;
 }
