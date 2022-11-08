@@ -61,6 +61,9 @@
     <Filter Include="Fichiers sources\Cpp_algo\Analysis tools">
       <UniqueIdentifier>{5b64ce85-69ae-4f26-8bfa-c9dbeb98753c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\POO\exercices">
+      <UniqueIdentifier>{cc767b6f-ff36-4d79-a968-219867269355}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A Simple Cpp Program.cpp">
@@ -146,6 +149,18 @@
     </ClCompile>
     <ClCompile Include="ExceptionObject.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO</Filter>
+    </ClCompile>
+    <ClCompile Include="Quine.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallel.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressionAbso.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressionSqrt.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -1,14 +1,15 @@
 #include "Object-Oriented_Design.h"
+#include <vector>
 
 // class
 
 class Progression {										// a generic progression
 public:
 
-	Progression(long f = 0) : first(f), cur(f) {}		// constructor
+	Progression(long f = 0) : first(f), cur(f) { }		// constructor
 	virtual ~Progression() {}							// destructor
 	void printProgression(int n);						// print the first n values
-
+	long FibonacciProgressionFinal(int index) { return buffer[index]; }
 protected:
 
 	virtual long firstValue();							// reset
@@ -16,6 +17,7 @@ protected:
 
 	long first;											// first value
 	long cur;											// current value
+	std::vector<long> buffer;
 };
 
 class ArithProgression : public Progression {			// arithmetic progression
@@ -96,6 +98,7 @@ long FibonacciProgression::firstValue()										// reset
 {
 	cur = first;
 	prev = second - first;													// create fictious prev
+	buffer.push_back(cur);
 	return cur;
 }
 
@@ -104,10 +107,9 @@ long FibonacciProgression::nextValue()
 	long temp = prev;
 	prev = cur;
 	cur += temp;
+	buffer.push_back(cur);
 	return cur;
 }
-
-
 
 // Test program for the progression classes
 int ExampleOfInheritance()
@@ -139,6 +141,7 @@ int ExampleOfInheritance()
 	std::cout << "Fibonacci progression with start values 4 and 6:\n";
 	prog = new FibonacciProgression(4, 6);
 	prog->printProgression(10);
+	std::cout << "value in index 8 -> " << prog->FibonacciProgressionFinal(8) << std::endl;
 	return EXIT_SUCCESS;												// successful execution
 
 }

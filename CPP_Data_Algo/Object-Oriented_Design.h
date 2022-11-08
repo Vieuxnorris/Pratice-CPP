@@ -12,3 +12,9 @@ int FunctionTemplates();
 
 // Exceptions
 int ExceptionObject();
+
+// Exercices
+int Quine();
+int Parallel();
+int ProgressionAbso();
+int ProgressionSqrt();
