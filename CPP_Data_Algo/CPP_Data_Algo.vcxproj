@@ -145,11 +145,13 @@
     <ClCompile Include="Constants and Typedef.cpp" />
     <ClCompile Include="CreditCard.cpp" />
     <ClCompile Include="c_style Structures.cpp" />
+    <ClCompile Include="Examples_of_inheritance.cpp" />
     <ClCompile Include="For loop.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="Fundamental types.cpp" />
     <ClCompile Include="If Statement.cpp" />
     <ClCompile Include="Implicit_Casting.cpp" />
+    <ClCompile Include="InheritanceAndPolymorphism.cpp" />
     <ClCompile Include="Local and Global Scopes.cpp" />
     <ClCompile Include="Namespaces.cpp" />
     <ClCompile Include="OverloadingAndInlining.cpp" />
@@ -166,6 +168,7 @@
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h" />
     <ClInclude Include="CreditCard.h" />
+    <ClInclude Include="Object-Oriented_Design.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

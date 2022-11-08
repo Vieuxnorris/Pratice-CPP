@@ -4,6 +4,7 @@
 
 // Inheritance and Polymorphism
 void InheranceAndPolymorphism();
+int ExampleOfInheritance();
 
 // Templates
 

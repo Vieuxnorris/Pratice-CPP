@@ -4,6 +4,6 @@
 
 int main()
 {
-	Classes();
+	InheranceAndPolymorphism();
 	return 0;
 }

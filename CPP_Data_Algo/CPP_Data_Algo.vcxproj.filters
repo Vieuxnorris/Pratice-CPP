@@ -132,12 +132,21 @@
     <ClCompile Include="TestCard.cpp">
       <Filter>Fichiers sources\Cpp_algo\Basics\CreditCard</Filter>
     </ClCompile>
+    <ClCompile Include="InheritanceAndPolymorphism.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples_of_inheritance.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="CreditCard.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Object-Oriented_Design.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
