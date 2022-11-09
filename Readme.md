@@ -28,9 +28,9 @@
 <hr>
 <hr>
 <h2 align="center">🔥 Practice C++ 🔥</h2>
-<hr>
-Part of my plan to improve my C++
 
+Part of my plan to improve my C++
+<hr>
 
 <!-- ROADMAP -->
 ## Roadmap
