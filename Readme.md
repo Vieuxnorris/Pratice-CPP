@@ -28,7 +28,6 @@
 <hr>
 <h2 align="center">🔥 Practice C++ 🔥</h2>
 Part of my plan to improve my C++
-<hr>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -68,3 +67,4 @@ Part of my plan to improve my C++
 - [ ] Memory Management and B-Trees
   - [ ] Creativity
   - [ ] Projects
+<hr>
