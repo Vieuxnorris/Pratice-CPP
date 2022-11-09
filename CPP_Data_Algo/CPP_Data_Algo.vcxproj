@@ -148,6 +148,7 @@
     <ClCompile Include="c_style Structures.cpp" />
     <ClCompile Include="Examples_of_inheritance.cpp" />
     <ClCompile Include="ExceptionObject.cpp" />
+    <ClCompile Include="FirstDerivativePoly.cpp" />
     <ClCompile Include="For loop.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="FunctionTemplates.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="Quine.cpp" />
     <ClCompile Include="References.cpp" />
     <ClCompile Include="setcBaseClass.cpp" />
+    <ClCompile Include="SimulationMessages.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Static_Casting.cpp" />
     <ClCompile Include="STL.cpp" />

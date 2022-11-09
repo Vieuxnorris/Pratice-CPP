@@ -64,6 +64,12 @@
     <Filter Include="Fichiers sources\Cpp_algo\POO\exercices">
       <UniqueIdentifier>{cc767b6f-ff36-4d79-a968-219867269355}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\POO\exercices\Projects">
+      <UniqueIdentifier>{6e796b3f-4ed7-4545-96be-84f7855030df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Cpp_algo\POO\exercices\Creativity">
+      <UniqueIdentifier>{6e66dc91-fccc-48ff-ba12-804e35ff365e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A Simple Cpp Program.cpp">
@@ -150,20 +156,26 @@
     <ClCompile Include="ExceptionObject.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO</Filter>
     </ClCompile>
-    <ClCompile Include="Quine.cpp">
-      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
-    </ClCompile>
     <ClCompile Include="Parallel.cpp">
-      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
     </ClCompile>
     <ClCompile Include="ProgressionSqrt.cpp">
-      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
     </ClCompile>
     <ClCompile Include="ProgressionAbso.cpp">
-      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
+    </ClCompile>
+    <ClCompile Include="Quine.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
     </ClCompile>
     <ClCompile Include="setcBaseClass.cpp">
-      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationMessages.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstDerivativePoly.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

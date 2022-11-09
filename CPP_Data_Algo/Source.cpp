@@ -4,6 +4,6 @@
 
 int main()
 {
-	setcBaseClass();
+	FirstDerivativePoly();
 	return 0;
 }

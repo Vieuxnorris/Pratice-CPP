@@ -13,9 +13,13 @@ int FunctionTemplates();
 // Exceptions
 int ExceptionObject();
 
-// Exercices
+// Exercices Creativity
 int Quine();
 int Parallel();
 int ProgressionAbso();
 int ProgressionSqrt();
 int setcBaseClass();
+int SimulationMessages();
+int FirstDerivativePoly();
+
+// Exercices Projects
