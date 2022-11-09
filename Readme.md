@@ -10,7 +10,7 @@
 <h2 align="center">🔥 Languages & Frameworks & Tools & Abilities 🔥</h2>
 <br>
 <p align="center">
-  <code><img title="C" height="25" src="https://user-images.githubusercontent.com/26462639/200926948-6eb9f928-5493-42d1-899c-b5dac7474dd9.png"></code>
+  <code><img title="C" height="25" src="https://user-images.githubusercontent.com/26462639/200927221-0b418c66-7b5f-446f-add6-7951c86b9f3d.png"></code>
   <code><img title="C++" height="25" src="images/cpp.svg"></code>
   <code><img title="C#" height="25" src="images/cSharp.svg"></code>
   <code><img title="Python" height="25" src="images/python-original.svg"></code>
