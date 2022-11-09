@@ -23,3 +23,6 @@ int SimulationMessages();
 int FirstDerivativePoly();
 
 // Exercices Projects
+int DivisibleByTwo();
+int BillPayement();
+int ComplexClass();

@@ -4,6 +4,6 @@
 
 int main()
 {
-	FirstDerivativePoly();
+	ComplexClass();
 	return 0;
 }

@@ -177,6 +177,15 @@
     <ClCompile Include="FirstDerivativePoly.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO\exercices\Creativity</Filter>
     </ClCompile>
+    <ClCompile Include="DivisibleByTwo.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="BillPayement.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Projects</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexClass.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Projects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">
