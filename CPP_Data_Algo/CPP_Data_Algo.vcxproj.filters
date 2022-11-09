@@ -156,10 +156,13 @@
     <ClCompile Include="Parallel.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
     </ClCompile>
+    <ClCompile Include="ProgressionSqrt.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
+    </ClCompile>
     <ClCompile Include="ProgressionAbso.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
     </ClCompile>
-    <ClCompile Include="ProgressionSqrt.cpp">
+    <ClCompile Include="setcBaseClass.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO\exercices</Filter>
     </ClCompile>
   </ItemGroup>

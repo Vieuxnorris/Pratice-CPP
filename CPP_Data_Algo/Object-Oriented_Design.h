@@ -18,3 +18,4 @@ int Quine();
 int Parallel();
 int ProgressionAbso();
 int ProgressionSqrt();
+int setcBaseClass();

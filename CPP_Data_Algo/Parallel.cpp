@@ -18,14 +18,14 @@ private:
 	std::string errorMsg;
 };
 
-double Line::intersect(Line& obj)
+double Line::intersect(Line& obj) throw(RuntimeException)
 {
 	std::cout << "Line 1: y = " << this->a << "x + " << this->b << std::endl;
 	std::cout << "Line 2: y = " << obj.a << "x + " << obj.b << std::endl;
 
 	double x = 0.0;
 	if (this->a == obj.a)
-		throw "Lines are parallel";
+		throw RuntimeException("Lines are parallel");
 	else
 		x = -(obj.b - this->b) / (obj.a - this->a);
 	return x;

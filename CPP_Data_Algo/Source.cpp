@@ -4,6 +4,6 @@
 
 int main()
 {
-	ProgressionSqrt();
+	setcBaseClass();
 	return 0;
 }

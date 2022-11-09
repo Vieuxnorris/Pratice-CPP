@@ -1,34 +1,33 @@
 #include "Object-Oriented_Design.h"
 
-class ProgressionClone {										// a generic progression
+class ProgressionClone2 {										// a generic progression
 public:
 
-	ProgressionClone(long f = 0) : first(f), cur(f) { }		// constructor
-	virtual ~ProgressionClone() {}							// destructor
+	ProgressionClone2(long f = 0) : first(f), cur(f) { }		// constructor
+	virtual ~ProgressionClone2() {}							// destructor
 	void printProgression(int n);						// print the first n values
 protected:
 
 	virtual long firstValue();							// reset
 	virtual long nextValue();							// advance
 
-	long first;											// first value
-	long cur;											// current value
+	double first;											// first value
+	double cur;											// current value
 };
 
-class AbsoProgression : public ProgressionClone
+class AbsoProgression : public ProgressionClone2
 {
 public:
-	AbsoProgression();
-	AbsoProgression(long, long);
+	AbsoProgression(long val1, long val2);
 protected:
-	virtual long initialValue();
+	virtual long firstValue();
 	virtual long nextValue();
 
 	long second;
 	long prev;
 };
 
-void ProgressionClone::printProgression(int n)				// print n values
+void ProgressionClone2::printProgression(int n)				// print n values
 {
 	std::cout << firstValue();							// print the first
 	for (int i = 2; i <= n; i++)						// print 2 through n
@@ -36,41 +35,44 @@ void ProgressionClone::printProgression(int n)				// print n values
 	std::cout << std::endl;
 }
 
-long ProgressionClone::firstValue()							// reset
+long ProgressionClone2::firstValue()							// reset
 {
 	cur = first;
 	return cur;
 }
 
-long ProgressionClone::nextValue()							// advance
+long ProgressionClone2::nextValue()							// advance
 {
 	return ++cur;
 }
 
-AbsoProgression::AbsoProgression()
+AbsoProgression::AbsoProgression(long val1 = 2, long val2 = 200) : ProgressionClone2(val1)
 {
-	first = 2;
-	second = 200;
+	first = val1;
+	second = val2;
 }
 
-AbsoProgression::AbsoProgression(long f, long s) : ProgressionClone(f), second(s) {}
-
-long AbsoProgression::initialValue()
+long AbsoProgression::firstValue()
 {
-	cur = second;
+	cur = first;
+	prev = first + second;
 	return cur;
 }
 
 long AbsoProgression::nextValue()
 {
-	long temp = abs(first - second);
-	cur += temp;
+	long temp = cur;
+	if (prev > cur)
+		cur = prev - cur;
+	else
+		cur = cur - prev;
+	prev = temp;
 	return cur;
 }
 
 int ProgressionAbso()
 {
-	AbsoProgression* prog = new AbsoProgression(4,8);
+	AbsoProgression* prog = new AbsoProgression(4, 20);
 	prog->printProgression(10);
 	return EXIT_SUCCESS;
 }

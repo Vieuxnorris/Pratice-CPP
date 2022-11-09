@@ -160,10 +160,11 @@
     <ClCompile Include="OverloadingAndInlining.cpp" />
     <ClCompile Include="Parallel.cpp" />
     <ClCompile Include="Pointers.cpp" />
-    <ClCompile Include="ProgressionAbso.cpp" />
     <ClCompile Include="ProgressionSqrt.cpp" />
+    <ClCompile Include="ProgressionAbso.cpp" />
     <ClCompile Include="Quine.cpp" />
     <ClCompile Include="References.cpp" />
+    <ClCompile Include="setcBaseClass.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Static_Casting.cpp" />
     <ClCompile Include="STL.cpp" />
