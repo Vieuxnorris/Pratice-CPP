@@ -27,8 +27,8 @@
 </p>
 <hr>
 
-## Practice C++
-
+<h2 align="center">🔥 Practice C++ 🔥</h2>
+Practice C++
 Part of my plan to improve my C++
 
 
