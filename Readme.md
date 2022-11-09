@@ -28,7 +28,6 @@
 <hr>
 <hr>
 <h2 align="center">🔥 Practice C++ 🔥</h2>
-
 Part of my plan to improve my C++
 <hr>
 
