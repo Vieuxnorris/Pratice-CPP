@@ -19,33 +19,33 @@ Part of my plan to improve my C++
 - [x] POO
   - [x] Creativity
   - [ ] Projects
-- [x] Array, Linked Lists, and Recursion
+- [ ] Array, Linked Lists, and Recursion
   - [ ] Creativity
   - [ ] Projects
-- [x] Analysis Tools
+- [ ] Analysis Tools
   - [ ] Creativity
   - [ ] Projects
-- [x] Stacks, Queues, and Deques
+- [ ] Stacks, Queues, and Deques
   - [ ] Creativity
   - [ ] Projects
-- [x] List and Ierator ADTs
+- [ ] List and Ierator ADTs
   - [ ] Creativity
   - [ ] Projects
-- [x] Trees
+- [ ] Trees
   - [ ] Creativity
   - [ ] Projects
-- [x] Heaps Tables, Maps, and Skip Lists
+- [ ] Heaps Tables, Maps, and Skip Lists
   - [ ] Creativity
   - [ ] Projects
-- [x] Search Trees
+- [ ] Search Trees
   - [ ] Creativity
   - [ ] Projects
-- [x] Sorting, Sets, and Selection
+- [ ] Sorting, Sets, and Selection
   - [ ] Creativity
   - [ ] Projects
-- [x] Graph Algorithms
+- [ ] Graph Algorithms
   - [ ] Creativity
   - [ ] Projects
-- [x] Memory Management and B-Trees
+- [ ] Memory Management and B-Trees
   - [ ] Creativity
   - [ ] Projects
