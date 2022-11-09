@@ -26,11 +26,11 @@
   <code><img title="MySQL" height="25" src="https://user-images.githubusercontent.com/26462639/200928601-76a7e37f-1225-47f9-8a8f-c7c7d946481f.png"></code>
 </p>
 <hr>
-<h2 align="center">🔥 Practice C++ 🔥</h2>
+<h2 align="center">📙 Practice C++ 📙</h2>
 Part of my plan to improve my C++
 
 <!-- ROADMAP -->
-## Roadmap
+<h2 align="center">👨‍💻 Roadmap 👨‍💻</h2>
 - [x] Basics
   - [ ] Creativity
   - [ ] Projects
