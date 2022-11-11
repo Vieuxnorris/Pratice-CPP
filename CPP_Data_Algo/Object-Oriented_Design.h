@@ -26,3 +26,4 @@ int FirstDerivativePoly();
 int DivisibleByTwo();
 int BillPayement();
 int ComplexClass();
+int Animal();

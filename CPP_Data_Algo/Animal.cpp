@@ -4,10 +4,11 @@ template<typename T>
 class AnimalClass {
 public:
 	AnimalClass(T force, std::string sexe, AnimalClass& a);
+	AnimalClass(T force, std::string sexe) : force(force), sexe(sexe) {}
 	~AnimalClass();
 
-	std::ostream& operator<<(const AnimalClass& a);
-protected:
+	friend std::ostream& operator<<(std::ostream& out, AnimalClass& a);
+private:
 	T force;
 	bool attaque = false;
 	std::string sexe;
@@ -16,30 +17,42 @@ protected:
 template<typename T>
 class Conversation {
 public:
-	Conversation(T force, std::string sexe, const AnimalClass a);
-private:
+	Conversation(int m ,T force, std::string sexe, AnimalClass<T> a);
 };
 
-class RuntimeException {
-public:
-	RuntimeException(const std::string& err) { errorMsg = err; }
-	std::string getMessage() const { return errorMsg; }
-private:
-	std::string errorMsg;
-};
-
+std::ostream& operator<<(std::ostream& out, AnimalClass<float>& a)
+{
+	out << "force : " << a.force << "\n"
+		<< "sexe : " << a.sexe << "\n"
+		<< "attaque ? " << a.attaque << "\n";
+	return out;
+}
 
 template<typename T>
-AnimalClass<T>::AnimalClass(T force, std::string sexe, AnimalClass& a) : force(force), sexe(sexe)
+AnimalClass<T>::AnimalClass(T force, std::string sexe, AnimalClass& a)
 {
-	if (this->sexe.compare(a.sexe))
+	this->force = force;
+	this->sexe = sexe;
+	if (this->sexe.compare(a.sexe) == 0)
 	{
 		this->attaque = true;
-		a.sexe = true;
-		std::cout << "Echange entre animal :" << "\n\n" << this << a;
+		a.attaque = true;
+		std::cout << "Echange entre animal combat : " << '\n' << a
+			<< "force : " << this->force << "\n"
+			<< "sexe : " << this->sexe << "\n"
+			<< "attaque ? " << this->attaque << "\n\n";
+		if (this->force > a.force)
+			std::cout << "Animal 1 gagne" << std::endl;
+		else if (this->force < a.force)
+			std::cout << "Animal 2 gagne" << std::endl;
 	}
 	else
-		std::cout << "Echange entre animal :" << "\n\n" << this << a;
+	{
+		std::cout << "Echange entre animal normal :" << '\n' << a
+			<< "force : " << this->force << "\n"
+			<< "sexe : " << this->sexe << "\n"
+			<< "attaque ? " << this->attaque << "\n\n";
+	}
 }
 
 template<typename T>
@@ -49,24 +62,18 @@ AnimalClass<T>::~AnimalClass()
 }
 
 template<typename T>
-std::ostream& AnimalClass<T>::operator<<(const AnimalClass& a)
+Conversation<T>::Conversation(int m, T force, std::string sexe, AnimalClass<T> a)
 {
-	out << "force : " << a.force << "\n"
-		<< "sexe : " << a.sexe << "\n"
-		<< "attaque ? " << a.attaque << '\n';
-	return out;
-}
-
-template<typename T>
-Conversation<T>::Conversation(T force, std::string sexe, const AnimalClass<T> a)
-{
-	AnimalClass<T> ours(force, sexe, a);
+	for (int i = 0; i < m; i++)
+	{
+		AnimalClass<T> ours(force, sexe, a);
+	}
 }
 
 
 int Animal()
 {
-
+	AnimalClass<float> ours(200.0, "male");
+	Conversation<float> ours2(5, 100, "male", ours);
 	return EXIT_SUCCESS;
 }
-

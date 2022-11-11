@@ -4,6 +4,6 @@
 
 int main()
 {
-	ComplexClass();
+	Animal();
 	return 0;
 }
