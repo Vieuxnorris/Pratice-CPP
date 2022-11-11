@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="A Simple Cpp Program.cpp" />
     <ClCompile Include="AbstractBaseClass.cpp" />
+    <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="BillPayement.cpp" />
     <ClCompile Include="Classes.cpp" />
