@@ -3,21 +3,21 @@
 template<typename T>
 class AnimalClass {
 public:
-	AnimalClass(T force, std::string sexe, AnimalClass& a);
-	AnimalClass(T force, std::string sexe) : force(force), sexe(sexe) {}
+	AnimalClass(T force, std::string sexe, AnimalClass& a, bool attaque = false);
+	AnimalClass(T force, std::string sexe, bool attaque) : force(force), sexe(sexe), attaque(attaque) {}
 	~AnimalClass();
 
 	friend std::ostream& operator<<(std::ostream& out, AnimalClass& a);
 private:
 	T force;
-	bool attaque = false;
+	bool attaque;
 	std::string sexe;
 };
 
 template<typename T>
 class Conversation {
 public:
-	Conversation(int m ,T force, std::string sexe, AnimalClass<T> a);
+	Conversation(int m ,T force, std::string sexe, AnimalClass<T> a, bool attaque = false);
 };
 
 std::ostream& operator<<(std::ostream& out, AnimalClass<float>& a)
@@ -29,10 +29,8 @@ std::ostream& operator<<(std::ostream& out, AnimalClass<float>& a)
 }
 
 template<typename T>
-AnimalClass<T>::AnimalClass(T force, std::string sexe, AnimalClass& a)
+AnimalClass<T>::AnimalClass(T force, std::string sexe, AnimalClass& a, bool attaque) : force(force), sexe(sexe), attaque(attaque)
 {
-	this->force = force;
-	this->sexe = sexe;
 	if (this->sexe.compare(a.sexe) == 0)
 	{
 		this->attaque = true;
@@ -48,10 +46,17 @@ AnimalClass<T>::AnimalClass(T force, std::string sexe, AnimalClass& a)
 	}
 	else
 	{
-		std::cout << "Echange entre animal normal :" << '\n' << a
+		std::cout << "Echange entre animal :" << '\n' << a
 			<< "force : " << this->force << "\n"
 			<< "sexe : " << this->sexe << "\n"
 			<< "attaque ? " << this->attaque << "\n\n";
+		if (this->attaque == true || a.attaque == true)
+		{
+			if (this->force > a.force)
+				std::cout << "Animal 1 gagne" << std::endl;
+			else if (this->force < a.force)
+				std::cout << "Animal 2 gagne" << std::endl;
+		}
 	}
 }
 
@@ -62,18 +67,18 @@ AnimalClass<T>::~AnimalClass()
 }
 
 template<typename T>
-Conversation<T>::Conversation(int m, T force, std::string sexe, AnimalClass<T> a)
+Conversation<T>::Conversation(int m, T force, std::string sexe, AnimalClass<T> a, bool attaque)
 {
 	for (int i = 0; i < m; i++)
 	{
-		AnimalClass<T> ours(force, sexe, a);
+		AnimalClass<T> ours(force, sexe, a, attaque);
 	}
 }
 
 
 int Animal()
 {
-	AnimalClass<float> ours(200.0, "male");
-	Conversation<float> ours2(5, 100, "male", ours);
+	AnimalClass<float> ours(200.0, "male", false);
+	Conversation<float> ours2(5, 100, "femelle", ours, true);
 	return EXIT_SUCCESS;
 }
