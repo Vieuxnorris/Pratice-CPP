@@ -24,7 +24,7 @@ class Unrelated {
 	void anotherMemberFunction()
 	{
 		//std::cout << X.priv;		// ERROR: private member
-		//std::cout << X.publ;		// ERROR: protected member
+		//std::cout << X.prot;		// ERROR: protected member
 		std::cout << X.publ;		// okay
 	}
 };

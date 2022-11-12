@@ -4,7 +4,7 @@ template<typename Unit>
 class Polygon {
 public:
 	Polygon() {}
-	~Polygon() {}
+	virtual ~Polygon() {}
 	virtual Unit Area() = 0;
 	virtual Unit Perimetre() = 0;
 };
