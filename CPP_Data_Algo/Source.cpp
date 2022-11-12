@@ -4,6 +4,6 @@
 
 int main()
 {
-	Animal();
+	PolygonInterface();
 	return 0;
 }

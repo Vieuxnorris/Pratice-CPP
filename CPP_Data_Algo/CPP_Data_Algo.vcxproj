@@ -165,6 +165,7 @@
     <ClCompile Include="OverloadingAndInlining.cpp" />
     <ClCompile Include="Parallel.cpp" />
     <ClCompile Include="Pointers.cpp" />
+    <ClCompile Include="PolygonInterface.cpp" />
     <ClCompile Include="ProgressionSqrt.cpp" />
     <ClCompile Include="ProgressionAbso.cpp" />
     <ClCompile Include="Quine.cpp" />
