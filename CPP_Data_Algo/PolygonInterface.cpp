@@ -13,6 +13,7 @@ template<typename Unit>
 class Triangle : public Polygon<Unit> {
 public:
 	Triangle(Unit a, Unit b, Unit c, Unit h) : a(a), b(b), c(c), h(h) {}
+	~Triangle() { std::cout << "Fin du calcul Triangle" << std::endl; }
 	Unit Area() { return ((this->b * this->h) / 2); }
 	Unit Perimetre() { return (this->a + this->b + this->c); }
 private:
@@ -23,6 +24,7 @@ template<typename Unit>
 class Quadrilateral : public Polygon<Unit> {
 public:
 	Quadrilateral(Unit AC, Unit BE, Unit DF) : AC(AC), BE(BE), DF(DF) {}
+	~Quadrilateral() { std::cout << "Fin du calcul Quadrilateral" << std::endl; }
 	Unit Area() { return ( ((1.0 / 2.0) * this->AC * this->BE) + ((1.0 / 2.0) * this->AC * this->DF) ); }
 	Unit Perimetre() { return (this->AC + this->BE + this->DF); }
 private:
@@ -33,6 +35,7 @@ template<typename Unit>
 class Pentagon : public Polygon<Unit> {
 public:
 	Pentagon(Unit a, Unit b, Unit c, Unit d, Unit e, Unit h = 0) : a(a), b(b), c(c), d(d), e(e), h(h) {}
+	~Pentagon() { std::cout << "Fin du calcul Pentagon" << std::endl; }
 	Unit Area() { return ((1.0 / 2.0) * this->Perimetre() * h); }
 	Unit Perimetre() { return (a + b + c + d + e); }
 private:
@@ -43,6 +46,7 @@ template<typename Unit>
 class Hexagon : public Polygon<Unit> {
 public:
 	Hexagon(Unit a, Unit b, Unit c, Unit d, Unit e, Unit f) : a(a), b(b), c(c), d(d), e(e), f(f) {}
+	~Hexagon() { std::cout << "Fin du calcul Hexagon" << std::endl; }
 	Unit Area() { return (((3 * sqrt(3)) / 2.0) * this->Perimetre()); }
 	Unit Perimetre() { return (a + b + c + d + e + f); }
 private:
@@ -53,6 +57,7 @@ template<typename Unit>
 class Octagon : public Polygon<Unit> {
 public:
 	Octagon(Unit a, Unit b, Unit c, Unit d, Unit e, Unit f, Unit g, Unit h, Unit rayon) : a(a), b(b), c(c), d(d), e(e), f(f), g(g), h(h), rayon(rayon) {}
+	~Octagon() { std::cout << "Fin du calcul Octagon" << std::endl; }
 	Unit Area() { return ( (this->Perimetre() * rayon) / 2.0 ); }
 	Unit Perimetre() { return (a + b + c + d + e + f + g + h); }
 private:
