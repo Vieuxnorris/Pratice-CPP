@@ -28,3 +28,4 @@ int BillPayement();
 int ComplexClass();
 int Animal();
 int PolygonInterface();
+int FrequencyAlpha();

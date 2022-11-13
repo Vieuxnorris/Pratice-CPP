@@ -192,6 +192,9 @@
     <ClCompile Include="PolygonInterface.cpp">
       <Filter>Fichiers sources\Cpp_algo\POO\exercices\Projects</Filter>
     </ClCompile>
+    <ClCompile Include="FrequencyAlpha.cpp">
+      <Filter>Fichiers sources\Cpp_algo\POO\exercices\Projects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">

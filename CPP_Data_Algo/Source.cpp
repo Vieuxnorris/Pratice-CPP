@@ -4,6 +4,6 @@
 
 int main()
 {
-	PolygonInterface();
+	FrequencyAlpha();
 	return 0;
 }

@@ -154,6 +154,7 @@
     <ClCompile Include="ExceptionObject.cpp" />
     <ClCompile Include="FirstDerivativePoly.cpp" />
     <ClCompile Include="For loop.cpp" />
+    <ClCompile Include="FrequencyAlpha.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="FunctionTemplates.cpp" />
     <ClCompile Include="Fundamental types.cpp" />
