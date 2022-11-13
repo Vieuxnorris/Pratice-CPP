@@ -37,7 +37,7 @@ Part of my plan to improve my C++
   - [ ] Projects
 - [x] POO
   - [x] Creativity
-  - [ ] Projects 5/7
+  - [ ] Projects 6/7
 - [ ] Array, Linked Lists, and Recursion
   - [ ] Creativity
   - [ ] Projects
