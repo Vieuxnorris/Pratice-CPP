@@ -4,6 +4,6 @@
 
 int main()
 {
-	SortingAnArray();
+	TwoDimensionalArrays();
 	return 0;
 }

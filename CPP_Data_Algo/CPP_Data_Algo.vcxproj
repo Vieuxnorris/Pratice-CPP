@@ -182,6 +182,7 @@
     <ClCompile Include="Strings.cpp" />
     <ClCompile Include="TestCard.cpp" />
     <ClCompile Include="Traditional C_Style Casting.cpp" />
+    <ClCompile Include="TwoDimensionalArrays.cpp" />
     <ClCompile Include="while and do-While loops.cpp" />
   </ItemGroup>
   <ItemGroup>

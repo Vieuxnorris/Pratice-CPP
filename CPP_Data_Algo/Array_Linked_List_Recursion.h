@@ -5,6 +5,7 @@
 // using Arrays
 int StoringGameEntries();
 int SortingAnArray();
+int TwoDimensionalArrays();
 
 // Singly linked lists
 
