@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/1sgetPM00wWqJpVUTl/giphy.gif" width="300"/>
+  <img src="https://ifunny.co/picture/i-hate-myself-wow-i-hate-this-more-oms4BRA19?s=cl" width="300"/>
 </div>
 <h1 align="center">
   <a href="https://git.io/typing-svg">
