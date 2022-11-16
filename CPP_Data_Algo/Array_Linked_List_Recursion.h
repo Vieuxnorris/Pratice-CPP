@@ -8,6 +8,7 @@ int SortingAnArray();
 int TwoDimensionalArrays();
 
 // Singly linked lists
+int SingleLinkedList();
 
 // Doubly linked lists
 

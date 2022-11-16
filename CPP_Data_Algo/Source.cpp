@@ -4,6 +4,6 @@
 
 int main()
 {
-	TwoDimensionalArrays();
+	SingleLinkedList();
 	return 0;
 }

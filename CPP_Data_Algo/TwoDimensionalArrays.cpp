@@ -31,8 +31,8 @@ public:
 	TicTacToe() {}
 	void clearBoard();
 	void putMark(int i, int j);
-	bool isWin(int mark);
-	int getWinner();
+	bool isWin(int mark) const;
+	int getWinner() const;
 	void printBoard();
 private:
 	int X = 1, O = -1, EMPTY = 0;
@@ -56,7 +56,7 @@ void TicTacToe::putMark(int i, int j)
 	this->currentPlayer = -currentPlayer;
 }
 
-bool TicTacToe::isWin(int mark)
+bool TicTacToe::isWin(int mark) const
 {
 	int win = 3 * mark; // +3 for X and -3 for O
 	return ((board[0][0] + board[0][1] + board[0][2] == win) // row 0
@@ -69,7 +69,7 @@ bool TicTacToe::isWin(int mark)
 		|| (board[2][0] + board[1][1] + board[0][2] == win)); // diagonal
 }
 
-int TicTacToe::getWinner()
+int TicTacToe::getWinner() const
 {
 	if (this->isWin(X)) return X;
 	else if (this->isWin(O)) return O;
