@@ -11,6 +11,7 @@ int TwoDimensionalArrays();
 int SingleLinkedList();
 
 // Doubly linked lists
+int DoublyLinkedList();
 
 // Circularly Linked Lists and List Reversal
 

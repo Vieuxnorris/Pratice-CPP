@@ -4,6 +4,6 @@
 
 int main()
 {
-	SingleLinkedList();
+	DoublyLinkedList();
 	return 0;
 }

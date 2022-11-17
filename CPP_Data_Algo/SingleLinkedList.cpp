@@ -1,6 +1,6 @@
 #include "Array_Linked_List_Recursion.h"
 
-// generic declaratio class
+// generic declaration class
 
 template<typename T>
 class SLinkedList;
@@ -116,6 +116,8 @@ void StringLinkedList::removeFront()						// remove font item
 	head = old->next;										// skip over old head
 	delete old;												// delete the old head
 }
+
+// main function
 
 int SingleLinkedList()
 {

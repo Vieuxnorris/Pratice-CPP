@@ -150,6 +150,7 @@
     <ClCompile Include="CreditCard.cpp" />
     <ClCompile Include="c_style Structures.cpp" />
     <ClCompile Include="DivisibleByTwo.cpp" />
+    <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="Examples_of_inheritance.cpp" />
     <ClCompile Include="ExceptionObject.cpp" />
     <ClCompile Include="FirstDerivativePoly.cpp" />
