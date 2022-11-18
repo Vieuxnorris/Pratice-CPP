@@ -144,6 +144,7 @@
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="BillPayement.cpp" />
+    <ClCompile Include="CircularlyLinkedList.cpp" />
     <ClCompile Include="Classes.cpp" />
     <ClCompile Include="ComplexClass.cpp" />
     <ClCompile Include="Constants and Typedef.cpp" />

@@ -213,6 +213,9 @@
     <ClCompile Include="DoublyLinkedList.cpp">
       <Filter>Fichiers sources\Cpp_algo\Arrays, Linked Lists, and Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="CircularlyLinkedList.cpp">
+      <Filter>Fichiers sources\Cpp_algo\Arrays, Linked Lists, and Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cpp_Prime.h">

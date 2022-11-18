@@ -14,6 +14,7 @@ int SingleLinkedList();
 int DoublyLinkedList();
 
 // Circularly Linked Lists and List Reversal
+int CircularlyLinkedList();
 
 // Recursion
 
