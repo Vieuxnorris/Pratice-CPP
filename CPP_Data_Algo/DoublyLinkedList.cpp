@@ -22,6 +22,7 @@ public:
 	void addBack(const Elem& e);	// add to back of list
 	void removeFront();	// remove from front
 	void removeBack();	// remove from back
+	void listReverse(DLinkedList& L);
 private:	// local type definitions
 	DNode* header;	// list sentinels
 	DNode* trailer;
@@ -98,6 +99,23 @@ void DLinkedList::removeBack()	// remove from back
 	remove(trailer->prev);
 }
 
+void DLinkedList::listReverse(DLinkedList& L)		// reverse a list
+{
+	DLinkedList T;									// temporary list
+	while (!empty())								// reverse L into T
+	{
+		Elem s = L.front();
+		L.removeFront();
+		T.addFront(s);
+	}
+	while (!T.empty())								// copy T back to L
+	{
+		Elem s = T.front();
+		T.removeFront();
+		L.addBack(s);
+	}
+}
+
 int DoublyLinkedList()
 {
 	DLinkedList e;
@@ -105,6 +123,8 @@ int DoublyLinkedList()
 	e.addFront("PVD");
 	e.addFront("BWI");
 	e.addFront("JFK");
+	std::cout << e.front() << std::endl;
+	e.listReverse(e);
 	std::cout << e.front() << std::endl;
 
 	return EXIT_SUCCESS;

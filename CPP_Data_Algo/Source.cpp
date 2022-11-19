@@ -4,6 +4,6 @@
 
 int main()
 {
-	CircularlyLinkedList();
+	DoublyLinkedList();
 	return 0;
 }
