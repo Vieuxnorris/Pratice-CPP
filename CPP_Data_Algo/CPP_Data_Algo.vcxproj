@@ -173,6 +173,7 @@
     <ClCompile Include="ProgressionSqrt.cpp" />
     <ClCompile Include="ProgressionAbso.cpp" />
     <ClCompile Include="Quine.cpp" />
+    <ClCompile Include="Recursion.cpp" />
     <ClCompile Include="References.cpp" />
     <ClCompile Include="setcBaseClass.cpp" />
     <ClCompile Include="SimulationMessages.cpp" />
